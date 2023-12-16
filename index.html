@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>Cards</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gestor de Tareas</title>
 </head>
 
 <body>
-<div class="navigation-bar">
-    Trello
-</div>
-<div id="container"></div>
+  <header>
+    <h1>Gestor de Tareas</h1>
+  </header>
+  <div id="board">
+    <div id="new-list">
+      <button id="add-list">+ Agregar lista</button>
+      <div id="list-form" class="hidden">
+        <input type="text" id="list-title" placeholder="Nombre de la lista">
+       <button id="add-list-btn">Crear</button>
+      </div>
+    </div>
+    <div id="lists-container">
+      <!-- Listas se agregaran dinamicamente aquí -->
+    </div>
 
-<div id="container-main"></div>
-
-<div id="card-edit">
-    <div id="card-edit-close"><img src="images/cross.png"></div>
-    <form>
-        <div id="card-edit-inputs">
-            <div>
-                <label>Title:</label>
-                <input id="card-edit-title">
-            </div>
-        </div>
-        <div>
-            <input id="card-edit-delete" type="button" value="Delete">
-            <input id="card-edit-submit" type="submit" value="Save">
-        </div>
-    </form>
-</div>
-
-<script src="./script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
