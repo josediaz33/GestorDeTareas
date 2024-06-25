@@ -1,9 +1,1 @@
-\section{Introducción}
 
-La mejora del contraste en imágenes en escala de grises es un aspecto fundamental en el procesamiento digital de imágenes. La capacidad de distinguir diferentes intensidades de grises puede ser crucial para una interpretación precisa y un análisis efectivo de la información visual, ayuda a ajustar la distribución de los niveles de grises para resaltar los detalles y mejorar la legibilidad o la percepción visual de una imagen.
-
-La investigación en el ámbito de la mejora del contraste en imágenes en escala de grises no solo es importante para la comunidad científica, sino que también repercute directamente en numerosas disciplinas. Desde la detección temprana de enfermedades en imágenes médicas hasta la preservación de valiosos documentos históricos y restauración de fotografías antiguas, los avances en esta área poseen el potencial de transformar nuestra manera de interactuar con el mundo visual.
-
-Algunos de los algoritmos usados para mejorar el contraste de las imágenes son: histograma de ecualización, histograma CLAHE, y histograma top hat. Si bien los dos primeros algoritmos sirven para reducir el ruido de sal y pimienta, este estudio se enfoca en la mejora del contraste de las imágenes en escala de grises, centrándose particularmente en el algoritmo de top hat.
-
-Un enfoque destacado en este campo es el propuesto por Julio César Mello Román en su artículo sobre mejora del contraste mediante morfología matemática multiescala. Esta técnica, meticulosamente descrita en su investigación, destaca los detalles de la imagen sin comprometer su calidad, empleando estructuras a diferentes escalas para realzar atributos específicos. La aplicación de la morfología matemática multiescala no solo se puede aplicar a imágenes en color, sino que también se extiende de manera esencial a imágenes en escala de grises, brindando una mejora del contraste efectiva sin menospreciar la calidad de la imagen.
